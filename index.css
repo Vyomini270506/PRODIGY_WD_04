@@ -1,0 +1,126 @@
+header {
+    background-color: rgb(40, 0, 40);
+    color: white;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 2vw;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4vw;
+}
+
+body {
+    margin: 0;
+}
+
+.sec {
+    display: flex;
+    position: absolute;
+    top: auto;
+    width: 100%; /* width is compulsory for what you want here */
+    z-index: -1;
+}
+
+.b1, .b2 {
+    width: 50vw;
+    height: 42vw;
+}
+
+.b1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.b2 {
+    background-color: rgba(91, 47, 91, 0.112);
+}
+
+.me {
+    margin-top: 5%;
+    margin-left: 30%;
+    display: flex;
+    height: 30vw;
+    width: 30vw;
+    font-size: 1.5vw;
+    box-shadow: 0px 0px 0.5vw 0.5vw black;
+}
+
+img {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    margin-top: 15%;
+    margin-left: 12%;
+    background-color: black;
+}
+
+h3, h5 {
+    text-align: center;
+}
+
+.me1 {
+    height: 30vw;
+    width: 15vw;
+    border-right: 0.4vw solid black;
+    background-color: rgba(91, 47, 91, 0.306);
+}
+
+.me2 {
+    height: 30vw;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    margin-top: 2vw;
+    background-color:  rgb(40, 0, 40);
+    height: 5vw;
+    width: 100%;
+}
+
+.soc li {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li{
+    font-size: 1.5vw;
+}
+a:hover{
+    font-size: 2.5vw;
+}
+@keyframes anime {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.ani {
+    animation: anime 1.5s ease-out;
+}
+@keyframes anime2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        background-color: white;
+        color:black;
+    }
+}
+.ani2 {
+    animation: anime 1.5s ease-out;
+}
