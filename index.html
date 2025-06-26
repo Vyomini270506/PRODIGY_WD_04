@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Vyomini Joshi</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!---->
+                <li><a href="about.html">About</a></li>
+                <li><a id="contact-b" href="#foot">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sec">
+        <div class="b1"></div>
+        <div class="b2"></div>
+    </div>
+    <div class="me">
+        <div class="me1">
+            <img src="Me.jpeg">
+            <h3>Vyomini Joshi</h3>
+            <h5>B.Tech. CSE (2nd Year) </h5>
+        </div>
+        <div class="me2">
+            <h1>Hello :)</h1>
+            <h3>My current status....</h3>
+            <p> I'm currently learning full stack development and enjoy building creative, responsive websites. I'm
+                eager to grow my skills through real-world projects and contribute to innovative tech solutions.</p>
+        </div>
+    </div>
+    <footer id="foot">
+        <ul class="soc">
+            <li><a href="https://www.linkedin.com/in/vyomini-joshi-30aa63327/">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/vyomi2705/?next=%2F">Instagram</a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=vyominijoshi01@gmail.com&su=Regarding%20Your%20Resume&body=Hi%20Vyomini%2C%0AI%20saw%20your%20resume%20and%20would%20like%20to%20connect.">Email</a>
+</li>
+
+        </ul>
+    </footer>
+</body>
+<script>
+    cb=document.getElementById("contact-b")
+cb.addEventListener("click",()=>{
+    foot=document.getElementById("foot")
+    foot.classList.remove('ani')
+    void foot.offsetWidth;
+    foot.classList.add('ani')
+})
+</script>
+</html>
