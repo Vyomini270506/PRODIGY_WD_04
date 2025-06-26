@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 id="mname">Vyomini Joshi</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!---->
+                <li><a href="about.html">About</a></li>
+                <li><a id="contact-b" href="index.html#foot">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="box">
+      <div class="info">
+    <div class="term">Education:</div>
+    <div class="desc">B.Tech in Computer Science and Engineering (2nd Year), SVNIT Surat</div>
+  </div>
+
+  <div class="info">
+    <div class="term">Interests:</div>
+    <div class="desc">Artificial Intelligence, Web Development and Robotics</div>
+  </div>
+
+  <div class="info">
+    <div class="term">Skills:</div>
+    <div class="desc">
+      <ul>
+        <li>Languages: Python, C, JavaScript</li>
+        <li>Web: HTML, CSS, JavaScript </li>
+        <li>Currently Learning: React.js, Git & GitHub</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="term">Projects:</div>
+    <div class="desc">
+      <ul>
+        <li>Games: Tic Tac Toe and Stone Paper Scissor</li>
+        <li>Responsive Web Pages using HTML,CSS &JS</li>
+        <li>Weather App using React and OpenWeather API</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="term">Goals:</div>
+    <div class="desc">
+      <ul>
+        <li>Gain internship experience</li>
+        <li>Improve DSA skills</li>
+        <li>Contribute to open-source projects</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="term">Hobbies & Personality:</div>
+    <div class="desc">Reading, exploring tech videos, and listening to music. I’m a curious and quick learner who loves solving challenges.</div>
+  </div>
+    </div>
+</body>
+<script>
+  boxes = document.getElementsByClassName("info")
+  window.onload = ()=>{
+   for(let i=0;i<boxes.length;i++){
+    setTimeout(()=>{
+      boxes[i].classList.add("show")
+    },i*1000)
+   }
+  }
+</script>
+</html>
